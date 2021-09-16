@@ -31,3 +31,16 @@ go
 Update Classe 
 Set Nome = 'Necromancer' 
 where classeId = 5;
+
+--Adição de Usuario, tipoUsuario e player
+insert into TipoUsuario (TituloTipoUsuario)
+values ('Administrador'), ('Jogador')
+go
+
+insert into Usuario (TipoUsuarioId, Email, Senha)
+values (1, 'adm@gmail.com', 'adm123'), (2, 'jogador@gmail.com', 'jogador123')
+go
+
+insert into Player (PersonagemId, UsuarioId)
+values (1, 2)
+go

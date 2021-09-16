@@ -39,3 +39,26 @@ CapacidadeMaximaMana Tinyint Not Null,
 DataDeAtualização Datetime Not Null,
 DataDeCriacao Datetime Not Null
 );
+go
+
+create table TipoUsuario (
+TipoUsuarioId tinyint primary key identity(1,1),
+TituloTipoUsuario varchar(100) not null unique
+);
+go
+
+create table Usuario (
+UsuarioId int primary key identity(1,1),
+TipoUsuarioId tinyint foreign key references TipoUsuario(TipoUsuarioId),
+Email varchar(256) not null unique,
+Senha varchar(150) not null
+);
+go
+
+create table Player (
+PlayerId int primary key identity(1,1),
+PersonagemId Tinyint foreign key references Personagem(PersonagemId),
+UsuarioId int foreign key references Usuario(UsuarioId)
+);
+go
+
