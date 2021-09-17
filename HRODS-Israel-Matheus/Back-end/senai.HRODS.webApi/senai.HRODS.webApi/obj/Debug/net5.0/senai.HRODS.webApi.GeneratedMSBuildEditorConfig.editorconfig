@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = senai.HRODS.webApi
+build_property.ProjectDir = C:\Users\T-Gamer\Desktop\SENAI_ATIV\2021_2S\sprint-2-back-end\Desafios\HRODS-Israel-Matheus\HRODS-Israel-Matheus\Back-end\senai.HRODS.webApi\senai.HRODS.webApi\
