@@ -1,5 +1,6 @@
 ﻿using senai.HRODS.webApi.Contexts;
 using senai.HRODS.webApi.Domains;
+using senai.HRODS.webApi.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace senai.HRODS.webApi.Repositories
 {
-    public class TipoUsuarioRepository
+    public class TipoUsuarioRepository : ITipoUsuario
     {
         HrodsContext ctx = new HrodsContext();
 

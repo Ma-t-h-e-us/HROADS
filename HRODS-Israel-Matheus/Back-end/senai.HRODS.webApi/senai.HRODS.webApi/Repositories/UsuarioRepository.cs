@@ -45,5 +45,10 @@ namespace senai.HRODS.webApi.Repositories
         {
             return ctx.Usuarios.ToList();
         }
+
+        public Usuario Login(string email, string senha)
+        {
+            return ctx.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
+        }
     }
 }

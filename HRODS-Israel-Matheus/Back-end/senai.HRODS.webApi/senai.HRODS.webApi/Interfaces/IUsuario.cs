@@ -13,5 +13,6 @@ namespace senai.HRODS.webApi.Interfaces
         Usuario BuscarPorId(int UsuarioId);
         void AtualizarIdUrl(int UsuarioId, Usuario UsuarioAtualizado);
         void Deletar(int UsuarioId);
+        public Usuario Login(string email, string senha);
     }
 }
