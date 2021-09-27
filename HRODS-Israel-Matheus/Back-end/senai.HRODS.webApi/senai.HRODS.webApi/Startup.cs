@@ -72,10 +72,7 @@ namespace senai.HRODS.webApi
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    endpoints.MapControllers();
-                });
+                    endpoints.MapControllers();  
             });
         }
     }

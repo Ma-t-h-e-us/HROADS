@@ -7399,19 +7399,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\israe\\.nuget\\packages\\": {}
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Biblioteca do Sistema\\Israel\\Documentos\\SENAI 1\\HROADS\\HRODS-Israel-Matheus\\Back-end\\senai.HRODS.webApi\\senai.HRODS.webApi\\senai.HRODS.webApi.csproj",
+      "projectUniqueName": "C:\\Users\\T-Gamer\\Desktop\\SENAI_ATIV\\2021_2S\\sprint-2-back-end\\Desafios\\HRODS-Israel-Matheus\\HRODS-Israel-Matheus\\Back-end\\senai.HRODS.webApi\\senai.HRODS.webApi\\senai.HRODS.webApi.csproj",
       "projectName": "senai.HRODS.webApi",
-      "projectPath": "F:\\Biblioteca do Sistema\\Israel\\Documentos\\SENAI 1\\HROADS\\HRODS-Israel-Matheus\\Back-end\\senai.HRODS.webApi\\senai.HRODS.webApi\\senai.HRODS.webApi.csproj",
-      "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
-      "outputPath": "F:\\Biblioteca do Sistema\\Israel\\Documentos\\SENAI 1\\HROADS\\HRODS-Israel-Matheus\\Back-end\\senai.HRODS.webApi\\senai.HRODS.webApi\\obj\\",
+      "projectPath": "C:\\Users\\T-Gamer\\Desktop\\SENAI_ATIV\\2021_2S\\sprint-2-back-end\\Desafios\\HRODS-Israel-Matheus\\HRODS-Israel-Matheus\\Back-end\\senai.HRODS.webApi\\senai.HRODS.webApi\\senai.HRODS.webApi.csproj",
+      "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\T-Gamer\\Desktop\\SENAI_ATIV\\2021_2S\\sprint-2-back-end\\Desafios\\HRODS-Israel-Matheus\\HRODS-Israel-Matheus\\Back-end\\senai.HRODS.webApi\\senai.HRODS.webApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
